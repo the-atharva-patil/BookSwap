@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookswap</title>
+    <link rel="stylesheet" href="bstyles.css">
+    <script defer src="bscript.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Bookswap</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <button id="loginBtn">Login</button>
+    </header>
+
+    <!-- Login Form -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Intro Section -->
+        <section class="intro">
+            <h1>Welcome to Bookswap!</h1>
+            <p>Buy and Sell used books easily and quickly.</p>
+            <div class="actions">
+                <button onclick="explore()">Explore</button>
+                <button onclick="buyBook()">Buy</button>
+                <button onclick="sellBook()">Sell</button>
+            </div>
+        </section>
+
+        <!-- Image Slider Section -->
+        <section class="slider">
+            <div class="slide active">
+                <img src="book1.jpeg" alt="Books Collection 1">
+            </div>
+            <div class="slide">
+                <img src="book3.jpg" alt="Books Collection 2">
+            </div>
+            <div class="slide">
+                <img src="book4.jpeg" alt="Books Collection 3">
+            </div>
+        </section>
+
+        <!-- Additional Sections for Scrolling -->
+        <section class="feature-section">
+            <h2>Why Choose Bookswap?</h2>
+            <p>We provide the best platform for book lovers to buy and sell used books. Get access to a wide collection at unbeatable prices!</p>
+            <img src="gulfer-ergin-LUGuCtvlk1Q-unsplash.jpg" alt="Book Exchange Platform">
+        </section>
+
+        <section class="feature-section">
+            <h2>Explore Our Collections</h2>
+            <p>From fiction to educational materials, our platform has a vast selection of books across various genres.</p>
+            <img src="pexels-uriel-mont-6271644.jpg" alt="Explore Our Collections">
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews">
+            <h2>What People Say</h2>
+            <div class="review-card">
+                <p>"The best platform for buying and selling used books!" - John D.</p>
+            </div>
+            <div class="review-card">
+                <p>"I love how easy it is to use Bookswap!" - Sarah W.</p>
+            </div>
+            <div class="review-card">
+                <p>"Great service, and I've saved a lot of money." - Mike B.</p>
+            </div>
+        </section>
+        <!-- About Section -->
+<section id="about" class="about-section">
+    <h2>About Bookswap</h2>
+    <p>Bookswap is the ultimate platform for buying and selling used books. Whether you're a student, book lover, or collector, you can find a wide variety of books to meet your needs.Are you a college going student and are upset with the increasing number of used books after each new semester, or you are a regular book reader who after reading the books, keep the old books on the bookshelves or in a cupboard and forget them? If yes, then Clankart is just made for you!
+
+        Bookswap is India's leading platform where you can sell used books online. At Bookswap, we help people to sell their used books to another book lover just like them at interesting prices.
+        
+        Selling and buying books on Clankart is a win-win situation for both the buyer and the seller. How? Let's see. As a seller, you can earn some good amount of money by selling your old books (which you don't even need) to another person at good prices. And being a buyer, you can save some money by buying the second hand books directly from the book owner.
+        
+        "Selling used second hand books at your own desired price is not an uphill battle anymore. Just sell them on BookSwap"</p>
+    <p>Our mission is to make book trading easy and accessible for everyone. Join our community today!</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Email: support@bookswap.com</p>
+    <p>Phone: +123-456-7890</p>
+    <p>Address: 123 Book Street, Booktown, BK 10101</p>
+</section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </div>
+        <div class="footer-section">
+            <h3>Support</h3>
+            <a href="#">Help</a> | 
+            <a href="#">Terms & Conditions</a> | 
+            <a href="#">Privacy Policy</a>
+        </div>
+        <p>&copy; 2024 Bookswap. All rights reserved.</p>
+    </footer>
+</body>
+</html>
